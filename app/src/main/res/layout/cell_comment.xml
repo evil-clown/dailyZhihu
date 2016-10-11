@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        fresco:placeholderImage="@drawable/ic_logo"
+        fresco:roundAsCircle="true"
+        android:id="@+id/receiver_imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:background="?attr/colorBackground"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="?attr/colorText"
+        android:layout_alignParentTop="true"
+        android:id="@+id/receiver_name_textView"
+        android:layout_toRightOf="@id/receiver_imageView"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="?attr/colorText"
+        android:layout_below="@id/receiver_name_textView"
+        android:layout_alignLeft="@id/receiver_name_textView"
+        android:id="@+id/comment_textView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment_time_textView"
+        android:textColor="?attr/colorText"
+        android:layout_below="@id/receiver_imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/comment_textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/praise"
+            android:tint="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/comment_praise_textView"
+            android:textColor="?attr/colorText"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:hint="0"/>
+    </LinearLayout>
+
+</RelativeLayout>

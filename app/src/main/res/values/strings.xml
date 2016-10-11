@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">知知</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="menu_login">登录</string>
+    <string name="menu_change_mode">转换模式</string>
+    <string name="menu_setting">设置选项</string>
+    <string name="menu_download">下载</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_collect">收藏</string>
+    <string name="menu_comment">讨论</string>
+    <string name="menu_like">赞</string>
+    <string name="menu_write_comment">写评论</string>
+    <string name="menu_image_cache">查看缓存图片</string>
+</resources>

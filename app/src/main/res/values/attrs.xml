@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="nav_sub_menu">
+        <attr name="menu_image" format="reference" />
+        <attr name="menu_text" format="string" />
+        <attr name="menu_textColor" format="color" />
+        <attr name="menu_textSize" format="dimension" />
+    </declare-styleable>
+
+    <attr name="colorBackground" format="color" />
+    <attr name="colorText" format="color" />
+    <attr name="colorToolBar" format="color" />
+</resources>

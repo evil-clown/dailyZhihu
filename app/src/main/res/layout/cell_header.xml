@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jude.rollviewpager.RollPagerView android:id="@+id/header_rollpager"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="?attr/colorBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:rollviewpager_play_delay = "3000">
+</com.jude.rollviewpager.RollPagerView>

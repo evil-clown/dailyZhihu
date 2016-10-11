@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorBackground">@android:color/white</item>
+        <item name="colorText">#3F3F3F</item>
+        <!--<item name="colorToolBar">#3F51B5</item>-->
+    </style>
+
+
+    <style name="NightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="colorPrimary">#3F3F3F</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#868686</item>-->
+        <item name="colorBackground">#3F3F3F</item>
+        <item name="colorText">@android:color/white</item>
+        <!--<item name="colorToolBar">#000000</item>-->
+    </style>
+</resources>
